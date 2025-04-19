@@ -1,4 +1,12 @@
 /FastAPI_study_proj_03/.venv
 /FastAPI_study_proj_03/.env
+/FastAPI_study_proj_03/__pycache__/
+/FastAPI_study_proj_03/pytest_cache/
 /fastapi03/.venv
 /fastapi03/.env
+/fastapi03/__pycache__/
+/fastapi03/pytest_cache/
+/fastapi04/.venv
+/fastapi04/.env
+/fastapi04/__pycache__/
+/fastapi04/pytest_cache/

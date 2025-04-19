@@ -1,0 +1,30 @@
+{
+    "Valeriy": {
+        "username": "Valeriy",
+        "age": 40,
+        "email": "email@email.ru",
+        "password": "1111111111",
+        "phone": "+1111111"
+    },
+    "Valentina": {
+        "username": "Valentina",
+        "age": 40,
+        "email": "email@email.ru",
+        "password": "2222222222",
+        "phone": "+2222222"
+    },
+    "Kira": {
+        "username": "Kira",
+        "age": 19,
+        "email": "email@email.ru",
+        "password": "123456789",
+        "phone": "+33333333"
+    },
+    "Sergey": {
+        "username": "Sergey",
+        "age": 40,
+        "email": "email@email.ru",
+        "password": "1111111111",
+        "phone": "+8888888"
+    }
+}
