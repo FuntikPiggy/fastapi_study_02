@@ -35,9 +35,7 @@ async def test_new_user(json_data, expected_status, expected_result, client):
     "username, expected_status, expected_result",
     [
         ("Valeriy", 200, {"username": "Valeriy", "age": 40, "email": "email@email.ru", "phone": "+1111111"}),
-        ("Valentina", 200, {"username": "Valentina", "age": 40, "email": "email@email.ru", "phone": "+2222222"}),
-        ("valentina", 200, {"username": "valentina", "age": 40, "email": "email@email.ru", "phone": "+222222"}),
-        ("Kira", 200, {"username": "Kira", "age": 19, "email": "email@email.ru", "phone": "+33333333"}),
+        ("Kirill", 404, "User not found"),
     ]
 )
 async def test_load_user(username, expected_status, expected_result, client):
